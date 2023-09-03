@@ -1,4 +1,4 @@
-lose all
+close all
 clear all
 clc
 
