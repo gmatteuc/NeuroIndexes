@@ -24,15 +24,15 @@ function [pattern_index, z_pattern, z_component, r_pattern, r_component, cds_pre
     cds_pred = (resp_grating1 + resp_grating2) / 2;
     pds_pred = tuning_grating;
     % calculate correlations
-    r_component = corr(tuning_plaid', cds_pred');
-    r_pattern = corr(tuning_plaid', pds_pred');
+    r_c = corr(tuning_plaid', cds_pred');
+    r_p = corr(tuning_plaid', pds_pred');
     r_cp = corr(pds_pred', cds_pred');
     % calculate partial correlations
-    r_pattern = (r_pattern - r_component * r_cp) / sqrt((1 - r_component^2) * (1 - r_cp^2));
-    r_component = (r_component - r_pattern * r_cp) / sqrt((1 - r_pattern^2) * (1 - r_cp^2));
+    r_pattern = (r_p - r_c * r_cp) / sqrt((1 - r_c^2) * (1 - r_cp^2));
+    r_component = (r_c - r_p * r_cp) / sqrt((1 - r_p^2) * (1 - r_cp^2));
     % fisher transform
-    z_pattern = 0.5 * log((1 + r_pattern) / (1 - r_pattern)) / sqrt(1 / (12 - 3));
-    z_component = 0.5 * log((1 + r_component) / (1 - r_component)) / sqrt(1 / (12 - 3));
+    z_pattern = 0.5 * log((1 + r_pattern) / (1 - r_pattern)) / sqrt(1 / (length(tuning_grating) - 3));
+    z_component = 0.5 * log((1 + r_component) / (1 - r_component)) / sqrt(1 / (length(tuning_grating) - 3));
     % compute pattern index
     pattern_index = z_pattern - z_component;
 
