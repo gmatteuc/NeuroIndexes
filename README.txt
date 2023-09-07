@@ -1,33 +1,50 @@
-Giulio's personal neural data analysis toolkit.
+# Neuroindexes
 
-This repository is intended as a sparse toolkit for neural data analysis, provideing functions and example scripts for neural and behavioral data anlysis in Matlab. In mywork sometimes I find myself repeating over and over some kind of analysis with slight variations across different projects and dataset, for some of these analysis "primitives" i decided to produce some small example scrips providing the code to run them and explaining how to use it. I've been also asked several times to share code to compute some selectivity indexes to quantify some neuronal properties, here I decided to make some of them freely available so that anyone wanting to use them is free to dowload them directly from herer. This toolkit is an ongoing side project of mine without any pretense of completeness and is intended for both personal use and for whoever might fin dit helpful. Over time I aim to buld a larger and larger library of clear, reusable (and possibly efficient) code for plotting, manipulation, and exploration of neuronal and behavioral data.
+Giulio's Personal Neural Data Analysis Toolkit
 
-1. comparing_medians_of_distributions:
-Functions and scripts for thoroughly comparing the medians of different distributions, needed over over in any neuroscience project.
+This repository serves as a specialized toolkit for neural data analysis, offering a collection of functions and example scripts designed for Matlab. The toolkit was born out of a recurring need in my work to perform similar types of analyses across various projects and datasets. To address this, I've created example scripts that not only provide the code to run these "primitive" analyses but also offer explanations on how to use them. Additionally, I've often been asked to share code for computing selectivity indexes to quantify specific neuronal properties. This repository makes these indexes freely available for anyone interested. While this toolkit is an ongoing side project with no claims of being comprehensive, it aims to evolve into a robust library of clear, reusable, and efficient code for the plotting, manipulation, and exploration of neuronal and behavioral data.
 
-2. comparing_psychometric_curves:
-Tools for comparing psychometric curves, including example scripts. ---> TODO (missing)
+---
 
-3. computing_pattern_and_component_index:
-A working version of scripts and functions to compute "pattern" and "component" indices need to quantify the type of visual motion selectivity of a neuron.
+## Repository Contents
 
-4. computing_phase_modulation_index:
-A working version of scripts and functions to compute a phase modulation index need to quantify a visual neuron as more or less "simple" or "complex" like.
+### 1. Comparing Medians of Distributions
+- Functions and scripts for robustly comparing the medians of different distributions, a recurring need in neuroscience projects.
 
-5. computing_prelick_modulation_index:
-A working version of scripts and functions to compute a pre-lick (or pre-action) modulation index need to quantify (decisional?) modulations of sensory neurons by upcoming motor actions.
+### 2. Comparing Psychometric Curves
+- Tools for comparing psychometric curves, including example scripts.
+- **Status**: TODO (Incomplete)
 
-6. computing_visual_selectivity_indexes:
-A collection of functions for computing various common visual selectivity indices. ---> TODO (finish)
+### 3. Computing Pattern and Component Index
+- A working set of scripts and functions to compute "pattern" and "component" indices, essential for quantifying a neuron's type of visual motion selectivity.
 
-7. converting_pvalues_in_ci_and_back:
-Functions for converting p-values to confidence intervals and vice versa under normality assumption.
+### 4. Computing Phase Modulation Index
+- Scripts and functions for computing a phase modulation index, useful for categorizing a visual neuron as either "simple" or "complex."
 
-8. inspecting_correlation_of_distributions:
-Tools for inspecting the correlation across different bivariate distributions, another kind of analysis needed over over in most neuroscience project.
+### 5. Computing Pre-lick Modulation Index
+- Scripts and functions for computing a pre-lick (or pre-action) modulation index, useful for quantifying sensory neurons' modulations by upcoming motor actions.
 
-9. inspecting_visual_neuron_responses:
-Scripts and functions for illustrating how to inspect and preprocess visual neuron responses in an experiment with grating and sparse noise stimuli. ---> TODO (missing)
+### 6. Computing Visual Selectivity Indexes
+- A suite of functions for computing various common visual selectivity indices.
+- **Status**: TODO (Incomplete)
 
-10. computing_spike_triggered_average:
-A working version of scripts and functions to compute a z-scored spike triggered average from dense noise responses ---> TODO (missing)
+### 7. Converting P-values to CI and Back
+- Functions for converting p-values to confidence intervals and vice versa, assuming normality.
+
+### 8. Inspecting Correlation of Distributions
+- Tools for examining correlations across different bivariate distributions, another recurring need in neuroscience.
+  
+### 9. Inspecting Visual Neuron Responses
+- Scripts and functions for inspecting and preprocessing visual neuron responses in experiments involving grating and sparse noise stimuli.
+- **Status**: TODO (Incomplete)
+
+### 10. Computing Spike Triggered Average
+- Scripts and functions for computing a z-scored spike-triggered average from dense noise responses.
+- **Status**: TODO (Incomplete)
+
+---
+
+Code written and tested in MATLAB R2023.
+
+Giulio Matteucci, 2023
+
