@@ -7,6 +7,7 @@ List of intended indexes (TODO):
 3) orientation and direction selectivity indexes
 4) response surprise and cv
 5) compute whitened z-scored STA
+6) psych curves
 
 List of intended anlysis bloks (TODO):
 
