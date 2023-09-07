@@ -1,6 +1,6 @@
 # Neuroindexes
 
-Giulio's Personal Neural Data Analysis Toolkit.
+Giulio's personal neural data analysis toolkit.
 
 This repository is intended as a streamlined toolkit for neural data analysis in Matlab, providing functions and example scripts for exploring and quantifying neural and behavioral data. The toolkit was born out of a recurring need in my work to perform similar types of analyses across various projects and datasets. To address this, I've created example scripts that not only provide the code to run these "primitive" analyses but also offer an annotated example of how to use them. Additionally, I've often been asked to share code for computing selectivity indexes to quantify various neuronal properties. This repository makes these some of these "index-computation" functions freely available for anyone interested. While this toolkit is an ongoing side project with no claims of being comprehensive, it aims to evolve over time into a robust library of clear, reusable, and efficient code for the visualization, exploration and statistical quantification of neuroscientific data.
 
