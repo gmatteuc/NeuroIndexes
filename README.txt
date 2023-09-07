@@ -4,8 +4,9 @@ List of intended indexes (TODO):
 
 1) phase modulation index
 2) prelick modulation index
-3) orientation and direction selectivity indexes (+ bsi and circ var)
+3) orientation and direction selectivity indexes
 4) response surprise and cv
+5) compute whitened z-scored STA
 
 List of intended anlysis bloks (TODO):
 
