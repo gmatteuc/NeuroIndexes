@@ -8,10 +8,10 @@ This repository serves as a specialized toolkit for neural data analysis, offeri
 
 ## Repository Contents
 
-### 1. Comparing Medians of Distributions
+#### 1. Comparing Medians of Distributions
 - Functions and scripts for robustly comparing the medians of different distributions, a recurring need in neuroscience projects.
 
-### 2. Comparing Psychometric Curves
+#### 2. Comparing Psychometric Curves
 - Tools for comparing psychometric curves, including example scripts.
 - **Status**: TODO (Incomplete)
 
