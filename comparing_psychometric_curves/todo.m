@@ -1,2 +1,3 @@
-% example with simulated data similar to opto mice, sigmoid fit and
-% comparison of threshold and slope btw to groupsof similar random mice
+%  TODO: example with simulated data similar/from optogenetic mice, sigmoid fit and
+% comparison of threshold and slope btw two groups.
+% -------------------------------------------------------------------------

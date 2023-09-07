@@ -1,1 +1,2 @@
-% example with real data from neuron
+% TODO: computing function + example with real data from neuron data release.
+% -------------------------------------------------------------------------
