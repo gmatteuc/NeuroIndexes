@@ -10,6 +10,7 @@ This repository is intended as a streamlined toolkit for neural data analysis in
 
 #### 1. Comparing Medians of Distributions
 - Functions and scripts for robustly comparing the medians of different distributions, a recurring need in neuroscience projects.
+- **Status**: OK (Complete)
 
 #### 2. Comparing Psychometric Curves
 - Tools for comparing psychometric curves, including example scripts.
@@ -17,12 +18,15 @@ This repository is intended as a streamlined toolkit for neural data analysis in
 
 #### 3. Computing Pattern and Component Index
 - A working set of scripts and functions to compute "pattern" and "component" indices, essential for quantifying a neuron's type of visual motion selectivity.
+- **Status**: OK (Complete)
 
 #### 4. Computing Phase Modulation Index
 - Scripts and functions for computing a phase modulation index, useful for categorizing a visual neuron as either "simple" or "complex."
+- **Status**: OK (Complete)
 
 #### 5. Computing Pre-lick Modulation Index
 - Scripts and functions for computing a pre-lick (or pre-action) modulation index, useful for quantifying sensory neurons' modulations by upcoming motor actions.
+- **Status**: TODO (Incomplete)
 
 #### 6. Computing Visual Selectivity Indexes
 - A suite of functions for computing various common visual selectivity indices.
@@ -30,9 +34,11 @@ This repository is intended as a streamlined toolkit for neural data analysis in
 
 #### 7. Converting P-values to CI and Back
 - Functions for converting p-values to confidence intervals and vice versa, assuming normality.
-
+- **Status**: OK (Complete)
+  
 #### 8. Inspecting Correlation of Distributions
 - Tools for examining correlations across different bivariate distributions, another recurring need in neuroscience.
+- **Status**: OK (Complete)
   
 #### 9. Inspecting Visual Neuron Responses
 - Scripts and functions for inspecting and preprocessing visual neuron responses in experiments involving grating and sparse noise stimuli.
